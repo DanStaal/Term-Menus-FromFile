@@ -1,3 +1,11 @@
 /.DS_Store
 
 /Makefile
+
+/Build
+
+/MYMETA.*
+
+/blib
+
+/_build

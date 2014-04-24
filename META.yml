@@ -1,23 +1,26 @@
 ---
-name: Term-Menus-FromFile
-version: 1.0.0
+abstract: "Creates 'Term::Menus' menus from external files."
 author:
   - 'Daniel T. Staal <DStaal@usa.net>'
-abstract: Creates 'Term::Menus' menus from external files.
-license: perl
-resources:
-  license: http://dev.perl.org/licenses/
-requires:
-  Term::Menus: 0
-  perl: 5.6.0
 build_requires:
-  Test::Builder::Tester: 0
-  Test::More: 0
+  Test::Builder::Tester: '0'
+  Test::More: '0'
+configure_requires:
+  Module::Build: '0.42'
+dynamic_config: 1
+generated_by: 'Module::Build version 0.4205, CPAN::Meta::Converter version 2.133380'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: Term-Menus-FromFile
 provides:
   Term::Menus::FromFile:
     file: lib/Term/Menus/FromFile.pm
-    version: 1.00.00
-generated_by: Module::Build version 0.2808
-meta-spec:
-  url: http://module-build.sourceforge.net/META-spec-v1.2.html
-  version: 1.2
+    version: v1.0.0
+requires:
+  Term::Menus: '0'
+  perl: v5.6.0
+resources:
+  license: http://dev.perl.org/licenses/
+version: v1.0.0
